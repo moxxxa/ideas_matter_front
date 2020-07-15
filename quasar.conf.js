@@ -47,10 +47,10 @@ module.exports = function (ctx) {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       env: ctx.dev
         ? { // so on dev we'll have
-          API: JSON.stringify('https://jeeinfraappserviceback.azurewebsites.net/')
+          API: JSON.stringify('https://jee-back.azurewebsites.net')
         }
         : { // and on build (production):
-          API: JSON.stringify('https://jeeinfraappserviceback.azurewebsites.net/')
+          API: JSON.stringify('https://jee-back.azurewebsites.net')
         },
         distDir: ctx.mode.spa ? 'public' : null,
       // rtl: false, // https://quasar.dev/options/rtl-support
