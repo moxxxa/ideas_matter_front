@@ -29,12 +29,12 @@
       />
     </div>
     <div class="flex row col-12 justify-start">
-      <password id="password1" autocomplete="new-password" v-model="$v.password1.$model" :toggle="true"
+      <password id="password1" autocomplete="new-password" v-model="password1" :toggle="true"
         :badge="false" placeholder="Your new password"
         @score="onScoreChange" class="col-6 q-mb-md" />
     </div>
     <div class="flex row col-12 justify-start">
-      <password id="password2" autocomplete="new-password" v-model="$v.password2.$model" :toggle="true"
+      <password id="password2" autocomplete="new-password" v-model="password2" :toggle="true"
         :badge="false" placeholder="Confirm your password"
         @score="onScoreChange" class="col-6 q-mb-md" />
     </div>
